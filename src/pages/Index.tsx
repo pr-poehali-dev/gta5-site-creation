@@ -68,11 +68,9 @@ export default function Index() {
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <img 
-                src="/img/6d6f47f6-d78d-499f-aa90-3f64a53b9c11.jpg" 
-                alt="Miami RolePlay" 
-                className="w-8 h-8"
-              />
+              <div className="w-8 h-8 bg-gaming-orange rounded flex items-center justify-center">
+                <span className="text-white font-bold text-lg">M</span>
+              </div>
               <h1 className="text-2xl font-bold text-white">Miami RolePlay</h1>
             </div>
             
