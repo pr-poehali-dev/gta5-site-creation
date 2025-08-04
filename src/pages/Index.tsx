@@ -68,7 +68,11 @@ export default function Index() {
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
-              <Icon name="Gamepad2" className="text-gaming-orange" size={32} />
+              <img 
+                src="https://cdn.poehali.dev/files/86ecab05-bff2-4434-8c87-ca71748f4bcd.png" 
+                alt="Miami RolePlay" 
+                className="w-8 h-8"
+              />
               <h1 className="text-2xl font-bold text-white">Miami RolePlay</h1>
             </div>
             
