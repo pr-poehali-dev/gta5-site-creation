@@ -69,9 +69,9 @@ export default function Index() {
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <img 
-                src="/img/1d188028-9749-41c5-9e2d-b79de69fe8ef.jpg" 
+                src="/img/6d6f47f6-d78d-499f-aa90-3f64a53b9c11.jpg" 
                 alt="Miami RolePlay" 
-                className="w-8 h-8 rounded"
+                className="w-8 h-8"
               />
               <h1 className="text-2xl font-bold text-white">Miami RolePlay</h1>
             </div>
