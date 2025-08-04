@@ -168,7 +168,7 @@ export default function Index() {
               <Card className="bg-black/40 border-gaming-orange/20 hover:border-gaming-orange/40 transition-all max-w-md">
                 <CardHeader>
                   <CardTitle className="text-white flex items-center justify-between">
-                    Сервер #1
+                    Miami Role Play
                     <Badge variant="secondary" className="bg-green-500 text-white">
                       Онлайн
                     </Badge>
