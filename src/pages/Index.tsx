@@ -69,9 +69,9 @@ export default function Index() {
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <img 
-                src="https://cdn.poehali.dev/files/86ecab05-bff2-4434-8c87-ca71748f4bcd.png" 
+                src="/img/1d188028-9749-41c5-9e2d-b79de69fe8ef.jpg" 
                 alt="Miami RolePlay" 
-                className="w-8 h-8"
+                className="w-8 h-8 rounded"
               />
               <h1 className="text-2xl font-bold text-white">Miami RolePlay</h1>
             </div>
