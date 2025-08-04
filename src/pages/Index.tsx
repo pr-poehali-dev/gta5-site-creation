@@ -164,35 +164,27 @@ export default function Index() {
 
           {/* Servers Section */}
           <TabsContent value="servers">
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-              {[1, 2, 3].map((server) => (
-                <Card key={server} className="bg-black/40 border-gaming-orange/20 hover:border-gaming-orange/40 transition-all">
-                  <CardHeader>
-                    <CardTitle className="text-white flex items-center justify-between">
-                      Сервер #{server}
-                      <Badge 
-                        variant="secondary" 
-                        className={server === 1 ? "bg-green-500 text-white" : "bg-yellow-500 text-black"}
-                      >
-                        {server === 1 ? "Онлайн" : "Полный"}
-                      </Badge>
-                    </CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-2 mb-4">
-                      <p className="text-gaming-blue">Игроков: {server === 1 ? "847/1000" : "1000/1000"}</p>
-                      <p className="text-white text-sm">Режим: RolePlay</p>
-                      <p className="text-white text-sm">Регион: Россия</p>
-                    </div>
-                    <Button 
-                      className="w-full bg-gaming-orange hover:bg-gaming-orange/80"
-                      disabled={server !== 1}
-                    >
-                      {server === 1 ? "Подключиться" : "Сервер полный"}
-                    </Button>
-                  </CardContent>
-                </Card>
-              ))}
+            <div className="grid justify-center">
+              <Card className="bg-black/40 border-gaming-orange/20 hover:border-gaming-orange/40 transition-all max-w-md">
+                <CardHeader>
+                  <CardTitle className="text-white flex items-center justify-between">
+                    Сервер #1
+                    <Badge variant="secondary" className="bg-green-500 text-white">
+                      Онлайн
+                    </Badge>
+                  </CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-2 mb-4">
+                    <p className="text-gaming-blue">Игроков: 847/1000</p>
+                    <p className="text-white text-sm">Режим: RolePlay</p>
+                    <p className="text-white text-sm">Регион: Россия</p>
+                  </div>
+                  <Button className="w-full bg-gaming-orange hover:bg-gaming-orange/80">
+                    Подключиться
+                  </Button>
+                </CardContent>
+              </Card>
             </div>
           </TabsContent>
 
