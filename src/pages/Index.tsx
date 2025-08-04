@@ -69,7 +69,7 @@ export default function Index() {
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <Icon name="Gamepad2" className="text-gaming-orange" size={32} />
-              <h1 className="text-2xl font-bold text-white">GTA 5 ONLINE</h1>
+              <h1 className="text-2xl font-bold text-white">Miami RolePlay</h1>
             </div>
             
             <div className="hidden md:flex items-center space-x-6">
@@ -124,7 +124,7 @@ export default function Index() {
         />
         <div className="relative z-10 text-center px-4">
           <h1 className="text-6xl md:text-8xl font-bold text-white mb-6 tracking-tight">
-            GTA 5 <span className="text-gaming-orange">ONLINE</span>
+            Miami <span className="text-gaming-orange">RolePlay</span>
           </h1>
           <p className="text-xl text-gaming-blue mb-8 max-w-2xl mx-auto">
             Присоединяйтесь к лучшему серверу GTA 5 RP! Создайте свою историю в Лос-Сантосе.
